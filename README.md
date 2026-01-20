@@ -4,9 +4,6 @@ A responsive and animated personal portfolio website built using **React.js**.
 This project is developed as part of the **MERN Stack Internship – Task 2** and focuses on UI/UX quality, responsiveness, and smooth animations.
 
 ---
-
----
-
 ##  Features
 
 - Single Page Application (SPA) using React
