@@ -5,10 +5,6 @@ This project is developed as part of the **MERN Stack Internship – Task 2** an
 
 ---
 
-##  Live Demo
-(Optional)  
-🔗 https://your-live-link.netlify.app
-
 ---
 
 ##  Features
