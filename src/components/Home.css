@@ -1,0 +1,103 @@
+.hero {
+  display: flex;
+  height: 100vh;
+  background: #f7f3ef;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+/* LEFT SIDE */
+.hero-left {
+  flex: 1;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #2e2a27;
+}
+
+.intro {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #9b8f83;
+  margin-bottom: 14px;
+}
+
+.hero-left h1 {
+  font-size: 3.4rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-left h1 span {
+  font-weight: 700;
+}
+
+.hero-left p {
+  margin-top: 22px;
+  max-width: 520px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #6b625c;
+}
+
+/* BUTTONS */
+.hero-buttons {
+  margin-top: 40px;
+  display: flex;
+  gap: 18px;
+}
+
+.primary {
+  background: #c6a988;
+  color: #2e2a27;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.primary:hover {
+  background: #b99874;
+}
+
+.outline {
+  background: transparent;
+  border: 1.5px solid #d8cfc4;
+  color: #6b625c;
+  padding: 14px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.outline:hover {
+  background: #efe9e3;
+}
+
+/* RIGHT SIDE */
+.hero-right {
+  flex: 1;
+  position: relative;
+}
+
+/* SEMI CIRCLE */
+.semi-circle {
+  position: absolute;
+  right: -15%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 550px;
+  height: 550px;
+  background: #f2c14e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.semi-circle img {
+  width: 65%;
+  height: auto;
+}
